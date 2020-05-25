@@ -7,7 +7,8 @@ html {
 }
 
 body {
-   background-image: url(../images/bg.png) ;
+    background-color: blue;
+   /* background-image: url(../images/bg.png) ; */
    overflow-x: hidden;
 }
 
