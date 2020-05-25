@@ -1,0 +1,140 @@
+@media (max-width: 1025px) {
+    .slider::before,
+    .slider::after,
+    .footer::before,
+    .footer::after {
+display: none;
+}
+}
+
+@media (max-width: 960px) {
+    .header__menu-btn {
+        display: block;
+}
+
+.header__menu > ul {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 78px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-image: url(../images/bg.png);
+    border-bottom: 3px solid #e8663c;
+    margin-top: 0;
+}
+
+.header__menu li {
+   display: block;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-top: 10px;
+}
+
+.header__menu li + li {
+   margin-left: 0px;
+   border-top: 0.5px solid #b9b9b9;
+}
+
+.header__menu a {
+    font-family:'Bebas', sans-serif;
+    font-size: 16px ;
+    text-transform: uppercase;
+    transition: color .5s;
+    text-decoration: none;
+    display: block;
+}
+
+.items__inner {
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.works__inner {
+    flex-wrap: wrap;
+}
+
+.works__inner-item {
+    padding-bottom: 15px;
+}
+}
+
+
+@media (max-width: 900px) {
+    .item{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 860px) {
+     .footer__bottom {
+        flex-wrap: wrap;
+    }
+
+    .footer__item-content {
+        margin-right: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    .works__inner-item {
+        width: 35%;
+    }
+}
+
+@media (max-width: 600px) {
+    .item {
+       width: 100%;
+       padding-top: 10px;
+    }
+
+    .works__inner-item {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 520px) {
+.works__inner-item {
+    width: 40%;
+}
+}
+
+@media (max-width: 480px) {
+    .slider__item-box {
+        margin-right: 30px; 
+    }
+
+    .slider__item-box .slider__item-title {
+        font-size: 16px;
+    }
+
+    .works__inner-item {
+        width: 40%;
+    }
+
+    .works__text a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+.works__inner-item {
+    width: 80%;
+}
+}
+
+
+
+@media (min-width: 960px) {
+.header__menu > ul{
+    display: block !important;
+}
+}

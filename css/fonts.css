@@ -1,0 +1,29 @@
+ @font-face{
+    font-family:'Bebas';
+    src: url('../fonts/Bebas.woff2') format('woff2'),
+         url('../fonts/Bebas.woff') format('woff'),
+         url('../fonts/Bebas.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+} 
+@font-face{
+     font-family:'HelveticaNeue';
+     src: url('../fonts/HelveticaNeue/HelveticaNeue.woff2') format('woff2'),
+          url('../fonts/HelveticaNeue/HelveticaNeue.woff') format('woff'),
+          url('../fonts/HelveticaNeue/HelveticaNeue.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+     font-family:'HelveticaNeueLight';
+     src: url('../fonts/HelveticaNeueLight/HelveticaNeue-Light.woff2') format('woff2'),
+          url('../fonts/HelveticaNeueLight/HelveticaNeue-Light.woff') format('woff'),
+          url('../fonts/HelveticaNeueLight/HelveticaNeue-Light.ttf') format('ttf');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
